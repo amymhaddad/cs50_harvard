@@ -1,0 +1,1 @@
+This is a repository for the CS50 class, "Web Programming with Python and JavaScript."
