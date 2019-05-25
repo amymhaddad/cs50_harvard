@@ -11,3 +11,5 @@ html_examples/document_object_model.html
 html_examples/form.html
 html_examples/hello.html
 html_examples/table.html
+
+project_requirments.py

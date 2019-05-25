@@ -1,0 +1,49 @@
+#top {
+    font-size: 36px;
+    padding: 8px
+}
+
+#middle {
+    font-size: 20px;
+    padding: 5px
+}
+
+.name {
+    color:navy;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 40%;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr, td {
+    border: 1px blue; 
+    width: 300px;
+    padding: 2px;
+    
+}
+
+th {
+    background-color: turquoise;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
