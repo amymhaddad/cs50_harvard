@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+   <head>
+       <style>
+
+           .flex-container {
+               display: flex;
+               width: 100%;
+               border: 1px solid black;
+           }
+
+           .direction {
+               flex-direction: row;
+           }
+          
+           .justify-con {
+               justify-content: space-evenly;
+           }
+
+           .align {
+               align-items: center;
+           }
+
+           .box-1 {
+               border: 1px solid black;
+               color: white;
+               background-color: blue;
+               width: 300px;
+           }
+           .box-2 {
+               border: 1px solid black;
+               color: white;
+               background-color: red;
+               width: 300px;
+           }
+           .box-3 {
+               border: 1px solid black;
+               color: white;
+               background-color: green;
+               width: 100px;
+           }
+       </style>
+   </head>
+   <body>
+       <div class="flex-container align direction justify-con">
+           <div class="box-1">1</div>
+           <div class="box-2">2</div>
+           <div class="box-3">3</div>
+       </div>
+   </body>
+</html>
