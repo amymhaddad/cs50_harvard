@@ -7,34 +7,97 @@
 
     <body>
         <div class='header'>
-            <h1>The News Today</h1>
+            <em>The News Times</em>
         </div>
 
-        <div class="box 1">Student Learns HTML</div>
-        <div class="box 2">BREAKING: Puppies Are Adorable</div>
-        <div class="box 3">CSS Is Apparently a Thing</div>
+        <div class="flex-container">
+            <!--Each box is contained in its own div-->
+            <div class="box-1">
+                <h3 class=story-header>Student Learns HTML</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Consectetur lorem donec massa sapien faucibus et molestie. Mattis pellentesque id nibh tortor id. 
+                Lorem ipsum dolor sit amet consectetur adipiscing. In cursus turpis massa tincidunt dui ut ornare lectus. 
+                </p>
 
+                <p class="paragraph">
+
+                </p>
+
+                <p class="paragraph">Neque gravida in fermentum et sollicitudin ac orci phasellus. 
+                    Pellentesque diam volutpat commodo sed. Eget nullam non nisi est sit. 
+                    Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. 
+                    Cursus sit amet dictum sit amet justo donec enim diam. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. 
+                </p>
+            </div>
+            
+            <div class="box-2 story-header">
+                <!--Each box is contained in its own div-->
+                <h3 class="story-header">BREAKING: Puppies Are Adorable</h3>
+                <img src="http://placecorgi.com/300/200"/>
+
+                <p class="paragraph">Pellentesque diam volutpat commodo sed. Eget nullam non nisi est sit. 
+                    Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida
+                </p>
+                
+                <p class="paragraph">
+
+                </p>
+
+                <p class="paragraph">
+                    Consectetur lorem donec massa sapien faucibus et molestie. Mattis pellentesque id nibh tortor id.
+                </p>
+            </div>
+
+            <div class="box-3">
+                <!--Each box is contained in its own div-->
+                <h3 class="story-header">CSS is Apparently a Thing</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Consectetur lorem donec massa sapien faucibus et molestie. Mattis pellentesque id nibh tortor id. 
+                Lorem ipsum dolor sit amet consectetur adipiscing. In cursus turpis massa tincidunt dui ut ornare lectus. 
+                </p>
+
+                <p class="paragraph">
+
+                </p>
+
+                <p class="paragraph">Neque gravida in fermentum et sollicitudin ac orci phasellus. 
+                    Pellentesque diam volutpat commodo sed. Eget nullam non nisi est sit. 
+                    Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. 
+                    Cursus sit amet dictum sit amet justo donec enim diam. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. 
+                </p>
+            </div>
+        
+        </div>
+        
+        <div class="flex-container">
+            <div class="box-4 story-header">
+                <!--Each box is contained in its own div-->
+                <h3 class="story-header">Boy Likes Turtles</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Consectetur lorem donec massa sapien faucibus et molestie. Mattis pellentesque id nibh tortor id. 
+                </p>
+        
+                <p class="paragraph">
+        
+                </p>
+        
+                <p class="paragraph">Neque gravida in fermentum et sollicitudin ac orci phasellus. 
+                    Pellentesque diam volutpat commodo sed. Eget nullam non nisi est sit. 
+                    Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. 
+                </p>
+        
+            </div>
+            
+            <div class="box-5">
+                <ul>
+                    <li class="site-section pol">Politics</li>
+                    <li class="site-section tech">Technology</li>
+                    <li class="site-section loc">Local</li>
+                    <li class="site-section op">Opinion</li>
+                    <li class="site-section sports">Sports</li>
+                </ul>   
+            </div>
+        </div>
     </body>
 </html>
 
-
--Style each box to correct dimensions: 25%, 50%, 25%
-
-1. Add 
-.flex-container {
-    display: flex;
-
-2. Org boxes by row 
-.direction {
-    flex-direction: row;
-}
-
-3. Center titles
-.justify-con {
-    justify-content: center;
-}
-
-4. Stretch each box to fit space
-.align {
-    align-items: Stretch;
-}
