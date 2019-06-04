@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+   
+.header {
+    padding: 20px;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: lighter; 
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 400px;
+}
+
+.story-header {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: lighter; 
+    text-align: center;
+    font-style: italic;
+}
+
+.paragraph {
+    font-size: 12px;
+    font-family: Arial;
+    text-align: left;
+    font-style: normal;
+}
+
+.image {
+    justify-content: center;
+}
+
+.box-25px-width {
+    border: black solid 1px;
+    width: 25%;
+    padding: 10px;
+}
+
+.box-50px-width {
+    border: black solid 1px;
+    width: 50%;
+    padding: 10px; 
+    
+}
+
+.box-75px-width {
+    border: black solid 1px;
+    width: 75%; 
+}
+
+.box-75px-width ul {
+    padding: 0;
+    margin: 0;
+}
+
+.site-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 75px;
+}
+
+.pol {
+    padding: 10px;
+    font-weight: bold;
+    background-color: bisque;
+    font-size: 20px;
+    color: gray;
+}
+
+.tech {
+    padding: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+    font-size: 20px;
+    color: gray;
+}
+
+.loc {
+    padding: 20px;
+    font-weight: bold;
+    background-color:pink;
+    font-size: 20px;
+    color: gray;
+}
+
+.op {
+    padding: 20px;
+    font-weight: bold;
+    background-color: orange;
+    font-size: 20px;
+    color: gray;
+}
+
+.sports {
+    padding: 20px;
+    font-weight: bold;
+    background-color: purple;
+    font-size: 20px;
+    color: gray;
+}
