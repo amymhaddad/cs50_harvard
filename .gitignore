@@ -4,7 +4,6 @@ html_examples/document_object_model.html
 html_examples/form.html
 html_examples/hello.html
 html_examples/table.html
-styles.css
 lecture_0/
 
 html_examples/document_object_model.html
@@ -18,4 +17,4 @@ html/
 
 frontend_masters/website/template.html
 180.jpeg
-2website.html
+2website.html   
