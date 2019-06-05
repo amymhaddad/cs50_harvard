@@ -1,0 +1,92 @@
+.main-headline {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 50px;
+    margin: 40px;
+}
+
+/*Each articles has two classes: story (which adds a border around each article) and half, quarter, or nav-list (to style the size of each article)*/
+.story {
+    border: 1px black solid;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.quarter {
+    width: 25%;
+}   
+
+.half {
+
+    width: 50%;
+}
+
+.article-header {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.para-text {
+    line-height: 1.2;
+    padding: 5px;
+}
+
+.image {
+    width: 100%;
+}
+
+.nav-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav-list a{
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;  
+    color: blue; 
+}
+
+.color1 {
+    background-color: aquamarine;
+}
+
+.color2 {
+    background-color: bisque;
+}
+
+.color3 {
+    background-color: aquamarine;
+}
+
+.color4 {
+    background-color: bisque;
+}
+
+.color5 {
+    background-color: aquamarine;
+}
