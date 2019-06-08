@@ -3,55 +3,52 @@
 <html>
     <head>
         <title>amymhaddad.com</title>
+        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"
     </head>
 
-
     <body>
-        <div id="top">
-            <span class='name'>Amy M Haddad</span> 
-        </div>
+        <!--Create a section for the header-->
+        <section class="header">
+            <h1 class="main-headline">Amy M Haddad</h1>
+            <p class="headline-text">Programmer, Writer, and Lifelong Learner</p>
+        </section>
 
-        <div id="middle">
-            <span class='name'>programmer and writer</span> 
-        </div>
+        <!--Create new section for this row of content-->
+        <section class="row">
+            <!---Create a separate "story" class to style all of the stories the same way (ie, add a border)-->
+            <article class="story quarter">
+                <h1 class="writer story-headline">Writer</h1>
+                <p class="story-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Neque odio excepturi minima libero asperiores ratione voluptates fugit quibusdam itaque dignissimos?</p>
+                <ul>
+                    <li><span class='item-emphasis'>Programming</span>: how to be a programmer</li>
+                    <li><span class='item-emphasis'>Productivity</span>: get the most out of your day and life</li>
+                    <li><span class='item-emphasis'>Art</span>: recent exhibitions and art and technology</li>
+                </ul>
 
-        <img src="/Users/amyhaddad/python/cs50/cs50_harvard/images/computer.jpg" height="250" class="center">
-        <p>Hello, and welcome to my website! I'm a programmer and writer, writing about:</p>
-        <ul>
-            <li>Programming</li>
-            <li>Learning</li>
-            <li>Art</li>
-            <li>Productivity</li>
-        </ul>
-        <p>Below are several of my most read articles:</p>
-
-        <table>
-            <tr align="left">
-                <th>Topic</th>
-                <th>Title</th>
-                <th>Publication</th>
-            </tr>
-            <tr>
-                <td>Programming</td>
-                <td>"How to be a great programmer"</td>
-                <td>freeCodeCamp</td>
-            </tr>
-
-            <tr>
-                <td>Art</td>
-                <td>"Curating a co-working space at industry lab"</td>
-                <td>CreateHub</td>
-            </tr>
-
-            <tr>
-                <td>Productivity</td>
-                <td>"Working in blocks of time"</td>
-                <td>amymhaddad.com</td>
-            </tr>
-  
+            </article>
+    
         
+            <article class="story half">
+                <h1 class="programmer story-headline">Programmer</h1>
+                
+                <p class="story-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Tempora natus ipsam dignissimos adipisci deserunt! Ex enim voluptatibus eos eius aut?</p>
+            </article>
 
-        </table>
+            <article class="story quarter">
+                <h1 class="lifelong-learner story-headline">Lifelong Learner</h1>
+                <p class="story-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Perferendis voluptatem distinctio dolorem rem ea voluptates amet laudantium assumenda. Fugit, sequi.</p>
+            </article>
+
+        </section>
+
+
     </body>
-</html>
+
+    </head>
+
+
+    <!--TO ADD: link from each headline to respective pages -->
