@@ -1,4 +1,9 @@
 
+* {
+    box-sizing: border-box;
+   }
+   
+
 .header {
     background-color: blue;
     font-family: 'Barlow', sans-serif;
@@ -39,11 +44,11 @@
 }
 
 .quarter {
-    size: 25%;
+    width: 25%;
 }
 
 .half {
-    size: 50%;
+    width: 50%;
 }
 
 .story-headline {
@@ -59,8 +64,75 @@
     padding-left: 5px;
 }
 
+.writing-topics {
+    line-height: 1.5;
+}
+
 .item-emphasis {
     font-weight: bold;
+}
+
+.computer-image {
+    align-content: center;
+    padding: 5px;
+}
+
+.three-quarters {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.nav-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav-list a{
+    text-decoration: none;  
+    color: gray;    
+}
+
+.nav-item a:hover {
+    text-decoration: underline;  
+    color: blue; 
+}
+
+.nav-story-text {
+    font-size: 25px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.color1 {
+    background-color: lightblue;
+}
+
+.color2 {
+    background-color: lightcoral;
+}
+
+.color3 {
+    background-color: lightblue;
 }
 
 
